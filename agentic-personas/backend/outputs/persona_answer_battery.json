@@ -1,0 +1,3630 @@
+{
+  "generated_at": "2026-05-26T19:19:22.980787+00:00",
+  "base_url": "http://127.0.0.1:8010/api",
+  "overall_score": 5.0,
+  "target_score": 4.0,
+  "failed_question_count": 0,
+  "passed": true,
+  "question_summaries": [
+    {
+      "question": "O que faria vocês trocarem de marca na categoria bebidas?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.286,
+        0.232,
+        0.306
+      ]
+    },
+    {
+      "question": "Como vocês reagiriam a um aumento de preço de 10% na categoria bebidas?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.242,
+        0.143,
+        0.149
+      ]
+    },
+    {
+      "question": "Que tipo de promoção teria mais chance de convencer vocês a comprar mais?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.226,
+        0.2,
+        0.161
+      ]
+    },
+    {
+      "question": "O que faria vocês comprarem uma nova marca de bebida pela primeira vez?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.258,
+        0.25,
+        0.183
+      ]
+    },
+    {
+      "question": "Qual benefício seria mais atrativo: desconto imediato, cashback, pontos ou brinde?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.176,
+        0.4,
+        0.173
+      ]
+    },
+    {
+      "question": "O que faria vocês trocarem da loja física para um canal digital?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.159,
+        0.169,
+        0.194
+      ]
+    },
+    {
+      "question": "Que tipo de mensagem chamaria mais atenção antes da compra?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.133,
+        0.212,
+        0.087
+      ]
+    },
+    {
+      "question": "Vocês seriam mais influenciados por preço, conveniência, marca ou recomendação?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.288,
+        0.208,
+        0.226
+      ]
+    },
+    {
+      "question": "O que faria vocês aumentarem a frequência de compra?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.25,
+        0.27,
+        0.184
+      ]
+    },
+    {
+      "question": "Como vocês reagiriam a um combo promocional com bebidas e outros produtos?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.224,
+        0.139,
+        0.159
+      ]
+    },
+    {
+      "question": "O que faria vocês abandonarem uma marca que já compram com frequência?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.21,
+        0.194,
+        0.159
+      ]
+    },
+    {
+      "question": "Qual seria o melhor momento para impactar vocês: antes da compra, dentro da loja ou no checkout?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.22,
+        0.311,
+        0.214
+      ]
+    },
+    {
+      "question": "Que tipo de comunicação parece mais confiável para vocês?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.081,
+        0.136,
+        0.099
+      ]
+    },
+    {
+      "question": "Vocês preferem ofertas personalizadas ou promoções simples para todos?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.129,
+        0.138,
+        0.119
+      ]
+    },
+    {
+      "question": "O que uma marca precisa fazer para virar a escolha recorrente de vocês?",
+      "avg_score": 5.0,
+      "differentiation_score": 5.0,
+      "pairwise_similarities": [
+        0.241,
+        0.177,
+        0.224
+      ]
+    }
+  ],
+  "records": [
+    {
+      "question": "O que faria vocês trocarem de marca na categoria bebidas?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nossa escolha de bebidas é influenciada pela confiança no ponto de venda e pela disponibilidade do produto. Se a marca atual não oferecer cashback ou desconto instantâneo, podemos considerar mudar para uma marca que ofereça esses benefícios.",
+          "checks": {
+            "word_count": 37,
+            "sentence_count": 2,
+            "intents": [
+              "brand_switching"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cashback",
+              "desconto",
+              "confiança",
+              "disponibilidade"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.5644783973693848
+            },
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5837286164598825
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5639047622680664
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5052632984362058
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nossa escolha de bebidas é influenciada pela conveniência e os benefícios de crédito. Isso nos faria trocar de marca se encontrássemos uma opção que oferecesse pontos ou condições promocionais mais atraentes.",
+          "checks": {
+            "word_count": 31,
+            "sentence_count": 2,
+            "intents": [
+              "brand_switching"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "pontos",
+              "conveniência"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.5371730923652649
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5680273215787
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5639047622680664
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5052632984362058
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nossa escolha recorrente de marca de bebidas é influenciada pela previsibilidade e estabilidade de preço. Nós evitaríamos marcas com preços instáveis ou benefícios recorrentes difíceis de entender. A mudança gradual e nossa cautela nos faria escolher uma nova marca com mais frequência.",
+          "checks": {
+            "word_count": 42,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cautela",
+              "previsibilidade",
+              "estabilidade",
+              "recorrente",
+              "gradual"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5689222812652588
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5944823864410878
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5639047622680664
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5052632984362058
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Como vocês reagiriam a um aumento de preço de 10% na categoria bebidas?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós sentiríamos o aumento, mas a decisão dependeria da confiança na loja física e da disponibilidade da bebida. Cashback, desconto instantâneo ou benefício na carteira digital ajudariam a compensar parte do preço. Sem esse benefício claro no ponto de venda, procuraríamos outra opção na próxima compra.",
+          "checks": {
+            "word_count": 46,
+            "sentence_count": 3,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança",
+              "disponibilidade"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5181545029970699
+            },
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.542841374874115
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.5074366331100464
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5020102261298751
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós compararíamos o aumento com os benefícios do cartão antes de mudar a compra. Pontos, crédito ou uma oferta digital antes da compra poderiam preservar a conveniência e ajudar no orçamento. Se o preço subisse sem benefício no cartão, buscaríamos uma alternativa mais vantajosa.",
+          "checks": {
+            "word_count": 44,
+            "sentence_count": 3,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5448973205624406
+            },
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.4980734586715698
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.5074366331100464
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5020102261298751
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós reagiríamos com cautela, porque preço estável e previsibilidade pesam muito para nós. Um benefício recorrente poderia reduzir o incômodo, mas uma alta brusca nos faria diminuir a frequência aos poucos. A troca para outra marca seria gradual, sem abandonar o hábito de uma vez.",
+          "checks": {
+            "word_count": 45,
+            "sentence_count": 3,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cautela",
+              "previsibilidade",
+              "estável",
+              "recorrente",
+              "gradual",
+              "hábito"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5207242071628571
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5351985970021123
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.5074366331100464
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5020102261298751
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Que tipo de promoção teria mais chance de convencer vocês a comprar mais?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós compraríamos mais com uma promoção simples na loja física, ligada a cashback ou desconto instantâneo na carteira digital. A regra precisa ser clara e o produto precisa estar disponível no ponto de venda. Se houver muita burocracia, a confiança na oferta cai.",
+          "checks": {
+            "word_count": 43,
+            "sentence_count": 3,
+            "intents": [
+              "promotion",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.429429318274814
+            },
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.4396737813949585
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.43890599724370205
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.4667738080024719
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós compraríamos mais com ofertas que somem pontos, crédito ou condições melhores no cartão. Uma mensagem digital antes da compra ajudaria a perceber a vantagem e planejar a ida à loja. Se o benefício não for conveniente, a promoção perde força.",
+          "checks": {
+            "word_count": 41,
+            "sentence_count": 3,
+            "intents": [
+              "promotion",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "promoção",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.3974301815032959
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.4258582249795322
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.43890599724370205
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.4667738080024719
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós compraríamos mais se a promoção trouxesse preço estável, benefício recorrente e valor fácil de comparar. Preferimos algo previsível, que possa entrar na rotina sem parecer uma mudança brusca. A mudança precisa ser gradual e de baixo risco.",
+          "checks": {
+            "word_count": 38,
+            "sentence_count": 3,
+            "intents": [
+              "promotion",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "previsível",
+              "estável",
+              "recorrente",
+              "gradual",
+              "rotina",
+              "valor"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.4611550890710887
+            },
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.4797360301017761
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.43890599724370205
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.4667738080024719
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "O que faria vocês comprarem uma nova marca de bebida pela primeira vez?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós experimentaríamos uma nova marca se ela estivesse disponível na loja física e passasse confiança no ponto de venda. Cashback, desconto instantâneo ou benefício na carteira digital reduziria o risco da primeira compra. Sem esses sinais simples, preferimos ficar com a marca conhecida.",
+          "checks": {
+            "word_count": 43,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.5634866952896118
+            },
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5696937483366571
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5666661133368643
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5972543002811483
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós testaríamos uma nova marca se ela viesse com pontos, crédito ou benefício claro no cartão. Uma mensagem digital antes da compra ajudaria a lembrar a oferta e comparar a conveniência. Se não houver vantagem prática no pagamento, a chance de experimentar cai.",
+          "checks": {
+            "word_count": 43,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.5316329598426819
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5357306918937372
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5666661133368643
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5972543002811483
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós experimentaríamos uma nova marca com mais cautela, buscando preço estável e benefício recorrente. A primeira compra teria que parecer previsível e sem risco de mudança brusca. Se a marca mantiver consistência, a troca pode acontecer aos poucos.",
+          "checks": {
+            "word_count": 38,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cautela",
+              "previsível",
+              "estável",
+              "recorrente",
+              "consistência"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.6022794544696808
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.6023942469123448
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5666661133368643
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5972543002811483
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Qual benefício seria mais atrativo: desconto imediato, cashback, pontos ou brinde?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nossa escolha recorrente seria o cashback, pois nos traz benefício imediato e confiança na nossa escolha. Precisamos evitar descontos imediatos que possam aumentar a pressão financeira.",
+          "checks": {
+            "word_count": 26,
+            "sentence_count": 2,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cashback",
+              "desconto",
+              "confiança"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.4337570329759727
+            },
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.49913984537124634
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.48592936992645264
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5766929984092712
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós preferimos crédito, pontos e benefícios do cartão, pois nos trazem conveniência e controle financeiro. A comunicação digital antes da compra nos ajuda a tomar decisões informadas. O desconto imediato pode ser atraente, mas não é nossa escolha recorrente.",
+          "checks": {
+            "word_count": 39,
+            "sentence_count": 3,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.4824886013560644
+            },
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.49579501152038574
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.48592936992645264
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5766929984092712
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nossa escolha recorrente seria a estabilidade de preço, pois nos traz previsibilidade e confiança na nossa escolha. Se houvesse a opção de cashback, seria um benefício atraente, pois nos traz benefício imediato e valor agregado.",
+          "checks": {
+            "word_count": 35,
+            "sentence_count": 2,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "previsibilidade",
+              "estabilidade",
+              "recorrente",
+              "valor"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5267224311828613
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5130935311317444
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.48592936992645264
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5766929984092712
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "O que faria vocês trocarem da loja física para um canal digital?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós só trocaríamos a loja física por um canal digital se a disponibilidade do produto fosse clara e confiável. Cashback, desconto instantâneo ou pagamento pela carteira digital ajudariam a reduzir a resistência. Sem confiança parecida com a do ponto de venda, preferimos continuar na loja física.",
+          "checks": {
+            "word_count": 46,
+            "sentence_count": 3,
+            "intents": [
+              "channel"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança",
+              "disponibilidade",
+              "pagamento"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.522727906703949
+            },
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5423336054285521
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.4976110308650441
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5708106117957459
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós iríamos para o canal digital se ele trouxesse conveniência real, benefícios de crédito e pontos no cartão. Uma comunicação digital antes da compra ajudaria a planejar melhor e comparar ofertas. Se o processo for lento ou não mostrar a vantagem do cartão, a loja física continua mais prática.",
+          "checks": {
+            "word_count": 49,
+            "sentence_count": 3,
+            "intents": [
+              "channel"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.5245997607707977
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5756699785989503
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.4976110308650441
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5708106117957459
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós consideraríamos o canal digital de forma gradual, desde que houvesse preço estável e benefício recorrente. A previsibilidade da entrega e do valor seria mais importante do que uma promoção pontual. Sem essa segurança, nossa cautela nos manteria na loja física.",
+          "checks": {
+            "word_count": 41,
+            "sentence_count": 3,
+            "intents": [
+              "channel"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cautela",
+              "previsibilidade",
+              "estável",
+              "recorrente",
+              "gradual",
+              "valor"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5960402964365569
+            },
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.6127104163169861
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.4976110308650441
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5708106117957459
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Que tipo de mensagem chamaria mais atenção antes da compra?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós gostamos de ter uma mensagem clara e direta sobre os benefícios e descontos que a carteira digital nos traz e também sobre a disponibilidade do produto na loja física. Isso nos faria ter mais confiança na marca e nos faria sentir mais à vontade para fazer compras. Um desconto instantâneo e um cashback nos faria sentir mais satisfeitos com a nossa escolha.",
+          "checks": {
+            "word_count": 63,
+            "sentence_count": 3,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança",
+              "disponibilidade"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.5281131267547607
+            },
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5391993247985429
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5524989829212121
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5560543205705681
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós responderíamos melhor a uma proposta conveniente, com benefício ligado ao crédito, pontos ou cartão. A comunicação digital antes da compra pode nos influenciar, mesmo que a decisão aconteça na loja física. Se a oferta não parecer prática ou vantajosa, tendemos a buscar outra opção.",
+          "checks": {
+            "word_count": 45,
+            "sentence_count": 3,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.5219181180000305
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5430403079414543
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5524989829212121
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5560543205705681
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós gostamos de ter informações claras e diretas sobre o que podemos esperar em termos de previsibilidade, preço estável e benefícios recorrentes. Isso nos faria sentir mais seguros em nossas escolhas de compra. Com isso, podemos planejar melhor e evitar surpresas desagradáveis.",
+          "checks": {
+            "word_count": 42,
+            "sentence_count": 3,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "previsibilidade",
+              "estável",
+              "recorrente",
+              "seguro",
+              "seguros"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5621107220649719
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5674729814372353
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5524989829212121
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5560543205705681
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Vocês seriam mais influenciados por preço, conveniência, marca ou recomendação?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós seríamos mais influenciados por confiança no ponto de venda, disponibilidade do produto e comunicação clara sobre benefícios. O cashback e a carteira digital também nos atraem. Nós tendemos a preferir a loja física.",
+          "checks": {
+            "word_count": 34,
+            "sentence_count": 3,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "loja",
+              "confiança",
+              "disponibilidade"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5609972680506645
+            },
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.5577452945037271
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.5368654611884468
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5706138142760434
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós seríamos mais influenciados por conveniência e benefícios de crédito, como pontos e condições promocionais do cartão. Isso nos faria escolher a loja física com mais frequência, especialmente se tivermos uma comunicação digital antes da compra que nos incentive a visitar.",
+          "checks": {
+            "word_count": 41,
+            "sentence_count": 2,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5382775847563966
+            },
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.48155365829329644
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.5368654611884468
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5706138142760434
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós seríamos mais influenciados por previsibilidade, estabilidade de preço e benefícios recorrentes. A mudança gradual nos faria sentir mais confortáveis com as escolhas. Nossa cautela nos faz evitar mudanças repentinas.",
+          "checks": {
+            "word_count": 30,
+            "sentence_count": 3,
+            "intents": [
+              "price"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cautela",
+              "previsibilidade",
+              "estabilidade",
+              "recorrente",
+              "gradual"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5564063059212654
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5894192632859724
+            },
+            {
+              "doc_id": "shared_price_sensitivity",
+              "persona_id": "shared",
+              "doc_type": "price_sensitivity",
+              "confidence": "medium",
+              "source_file": "shared/price_sensitivity.md",
+              "score": 0.5368654611884468
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5706138142760434
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "O que faria vocês aumentarem a frequência de compra?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós costumamos comprar com carteira digital e receber cashback. Isso nos faria aumentar a frequência de compra se a loja física oferecesse benefícios claros e confiáveis em cada compra.",
+          "checks": {
+            "word_count": 29,
+            "sentence_count": 2,
+            "intents": [
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "loja"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5507140785881319
+            },
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.551474392414093
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5431852502580059
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5509248077869415
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós aumentaríamos a frequência de compra se tivéssemos benefícios de crédito, pontos e condições promocionais no cartão. Comunicação digital antes da compra e conveniência também nos influenciam.",
+          "checks": {
+            "word_count": 27,
+            "sentence_count": 2,
+            "intents": [
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.5394302010536194
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5540162059078331
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5431852502580059
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5509248077869415
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "A mudança gradual em preços estáveis e benefícios recorrentes nos faria aumentar a frequência de compra. Precisamos ter cautela e considerar os riscos de mudança.",
+          "checks": {
+            "word_count": 25,
+            "sentence_count": 2,
+            "intents": [
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cautela",
+              "recorrente",
+              "gradual"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5728853642940521
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5766838364804933
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5431852502580059
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5509248077869415
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Como vocês reagiriam a um combo promocional com bebidas e outros produtos?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós reagiríamos melhor a um combo disponível na loja física, com desconto instantâneo ou cashback na carteira digital. A oferta precisa ser simples e os produtos precisam estar disponíveis no ponto de venda. Se o combo parecer confuso ou sem benefício imediato, tendemos a manter a compra habitual.",
+          "checks": {
+            "word_count": 48,
+            "sentence_count": 3,
+            "intents": [
+              "promotion"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5000319778919184
+            },
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.5264799877119064
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5133250500760937
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5697393930269011
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós prestaríamos atenção em um combo anunciado antes da compra, com pontos, crédito ou benefício no cartão. A conveniência de entender a oferta pelo canal digital aumentaria a chance de colocarmos outros produtos no carrinho. Se o benefício do cartão não ficar claro, o combo perde força para nós.",
+          "checks": {
+            "word_count": 49,
+            "sentence_count": 3,
+            "intents": [
+              "promotion"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.4815963219644822
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5073986053466761
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5133250500760937
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5697393930269011
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós consideraríamos um combo se ele tivesse preço previsível, benefício recorrente e valor fácil de comparar. Uma oferta estável ao longo do tempo pareceria menos arriscada do que uma promoção pontual. Para nós, o combo precisa funcionar como teste gradual, não como pressão para comprar mais.",
+          "checks": {
+            "word_count": 46,
+            "sentence_count": 3,
+            "intents": [
+              "promotion"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "previsível",
+              "estável",
+              "recorrente",
+              "gradual",
+              "valor"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5181190647936982
+            },
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5203684258241391
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5133250500760937
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5697393930269011
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "O que faria vocês abandonarem uma marca que já compram com frequência?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós abandonaríamos uma marca se ela falhasse em disponibilidade na loja física ou perdesse confiança no ponto de venda. A falta de cashback, desconto instantâneo ou benefício na carteira digital também reduziria a vantagem. Sem esses sinais claros, procuraríamos uma alternativa mais confiável.",
+          "checks": {
+            "word_count": 43,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança",
+              "disponibilidade"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.5453736186027527
+            },
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5676257650629134
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5212635099887848
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.569309677522797
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós abandonaríamos uma marca se ela deixasse de oferecer crédito, pontos ou benefícios relevantes no cartão. A falta de comunicação digital antes da compra também nos faria olhar outras opções. Se perder conveniência e controle no pagamento, a marca deixa de valer a repetição.",
+          "checks": {
+            "word_count": 44,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.5404814779758453
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5527792008387558
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5212635099887848
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.569309677522797
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós abandonaríamos uma marca se ela perdesse estabilidade de preço, previsibilidade ou benefício recorrente. A mudança não seria imediata, mas nossa cautela aumentaria a cada compra ruim. Com sinais consistentes de instabilidade, migraríamos aos poucos para outra opção.",
+          "checks": {
+            "word_count": 38,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "cautela",
+              "previsibilidade",
+              "estabilidade",
+              "recorrente"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.568021833896637
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5759055271204985
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5212635099887848
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.569309677522797
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Qual seria o melhor momento para impactar vocês: antes da compra, dentro da loja ou no checkout?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Para nós, o melhor momento é dentro da loja física, quando conseguimos confirmar disponibilidade e confiar no ponto de venda. Uma mensagem sobre cashback, desconto instantâneo ou carteira digital funciona melhor se for verificável ali. Antes da compra ajuda menos se a informação não se confirmar na loja.",
+          "checks": {
+            "word_count": 48,
+            "sentence_count": 3,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "disponibilidade"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.5035523176193237
+            },
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5124187774907805
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5118927810160152
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5748688235957125
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Para nós, é fundamental antes da compra, por meio da comunicação digital, considerar o crédito, os pontos e os benefícios do cartão. Se não entendermos a oferta antes, ela chega tarde no checkout.",
+          "checks": {
+            "word_count": 33,
+            "sentence_count": 2,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.46013855934143066
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.48514225990427995
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5118927810160152
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5748688235957125
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Para nós, o melhor momento é antes da compra, com uma mensagem previsível e sem pressão. Precisamos comparar preço estável, benefício recorrente e valor ao longo do tempo. Dentro da loja ou no checkout funciona menos se parecer uma mudança apressada.",
+          "checks": {
+            "word_count": 41,
+            "sentence_count": 3,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "previsível",
+              "estável",
+              "recorrente",
+              "valor"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5643867552280426
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5790565782504252
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.5118927810160152
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.5748688235957125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Que tipo de comunicação parece mais confiável para vocês?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós preferimos uma comunicação direta e clara, que nos ajude a entender melhor a disponibilidade dos produtos na loja física e no ponto de venda. As mensagens sobre cashback, desconto instantâneo ou carteira digital devem ser fáceis de entender e confirmar na loja, sem muitas dúvidas. Se a informação parecer muito genérica, nossa confiança diminui.",
+          "checks": {
+            "word_count": 55,
+            "sentence_count": 3,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança",
+              "disponibilidade"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.5028226375579834
+            },
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5540826320648193
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5348301689276147
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.4819850634345365
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós confiamos mais em comunicação digital antes da compra, principalmente quando explica crédito, pontos e benefícios do cartão. Ela precisa ajudar a planejar a compra com conveniência. Se a oferta não mostrar a vantagem do cartão, chama menos atenção.",
+          "checks": {
+            "word_count": 39,
+            "sentence_count": 3,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.5147213935852051
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5263836995591931
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5348301689276147
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.4819850634345365
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós preferimos uma comunicação clara e consistente, com preços estáveis e uma previsibilidade que nos faça sentir seguros. A mensagem deve transmitir um valor claro e duradouro, e não apenas uma promessa passageira. Quanto mais gradual e sem pressão, melhor, para que possamos nos habituar à ideia sem sentir que estamos sendo forçados a tomar uma decisão apressada.",
+          "checks": {
+            "word_count": 58,
+            "sentence_count": 3,
+            "intents": [
+              "communication"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "previsibilidade",
+              "gradual",
+              "valor",
+              "seguro",
+              "seguros"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5404693460184717
+            },
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5540270209312439
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5348301689276147
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.4819850634345365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Vocês preferem ofertas personalizadas ou promoções simples para todos?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Nós gostamos de promoções claras e fáceis de entender, mesmo na loja física. Ofertas de cashback, desconto instantâneo ou benefícios na nossa carteira digital são bem-vindas, desde que sejam fáceis de entender. Se a oferta parecer confusa, perdemos a confiança na marca.",
+          "checks": {
+            "word_count": 43,
+            "sentence_count": 3,
+            "intents": [
+              "promotion"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.4476856856158774
+            },
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.48029327392578125
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.45959184943413267
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.46756625175476074
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Nós tendemos a preferir ofertas personalizadas quando elas usam crédito, pontos e benefícios do cartão. Uma comunicação digital antes da compra ajuda a perceber a conveniência da oferta. Se a personalização não trouxer vantagem prática, uma promoção simples funciona melhor.",
+          "checks": {
+            "word_count": 40,
+            "sentence_count": 3,
+            "intents": [
+              "promotion"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "promoção",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.41394704580307007
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.4545759829626064
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.45959184943413267
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.46756625175476074
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Nós preferimos promoções simples e previsíveis, com preço estável e benefício recorrente. Ofertas muito personalizadas podem parecer incertas se mudarem toda semana. Quanto mais gradual e fácil de comparar, maior a chance de aderirmos.",
+          "checks": {
+            "word_count": 34,
+            "sentence_count": 3,
+            "intents": [
+              "promotion"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "previsíveis",
+              "estável",
+              "recorrente",
+              "gradual"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.4583547438171649
+            },
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.4791344404220581
+            },
+            {
+              "doc_id": "shared_omnichannel_behavior",
+              "persona_id": "shared",
+              "doc_type": "omnichannel",
+              "confidence": "medium",
+              "source_file": "shared/omnichannel_behavior.md",
+              "score": 0.45959184943413267
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.46756625175476074
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question": "O que uma marca precisa fazer para virar a escolha recorrente de vocês?",
+      "answers": [
+        {
+          "cluster_id": 0,
+          "segment_name": "Consumidores Maduros do Norte com Pagamento Digital",
+          "answer": "Para virar nossa escolha recorrente, a marca precisa estar disponível na loja física e passar confiança no ponto de venda. Cashback, desconto instantâneo ou benefício na carteira digital reforçariam a sensação de vantagem simples. Com produto disponível e benefício fácil de usar, voltaríamos a escolher a marca.",
+          "checks": {
+            "word_count": 47,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "carteira",
+              "cashback",
+              "desconto",
+              "loja",
+              "confiança"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_0",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona0_physical_store_trust",
+              "persona_id": "persona_0",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/physical_store_trust.md",
+              "score": 0.571960061788559
+            },
+            {
+              "doc_id": "persona0_digital_wallet_cashback",
+              "persona_id": "persona_0",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_0/digital_wallet_cashback.md",
+              "score": 0.5867940239187486
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5562651621182308
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.570276762826635
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "segment_name": "Jovens Adultos Recorrentes do Sudeste",
+          "answer": "Para virar nossa escolha recorrente, a marca precisa combinar conveniência com benefícios de crédito, pontos e cartão. A comunicação digital antes da compra ajudaria a lembrar a oferta e planejar melhor a compra. Se o benefício for recorrente e fácil de entender, tenderíamos a repetir a escolha.",
+          "checks": {
+            "word_count": 47,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "crédito",
+              "cartão",
+              "pontos",
+              "digital",
+              "conveniência",
+              "antes da compra"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_1",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona1_digital_pre_purchase_influence",
+              "persona_id": "persona_1",
+              "doc_type": "channel_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/digital_pre_purchase_influence.md",
+              "score": 0.5350369215011597
+            },
+            {
+              "doc_id": "persona1_credit_rewards",
+              "persona_id": "persona_1",
+              "doc_type": "payment_behavior",
+              "confidence": "high",
+              "source_file": "persona_1/credit_rewards.md",
+              "score": 0.5515606136060118
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5562651621182308
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.570276762826635
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "segment_name": "Consumidores Mainstream Recorrentes do Sudeste",
+          "answer": "Para virar nossa escolha recorrente, a marca precisa manter preço estável, consistência e benefício recorrente. Nós formaríamos o hábito aos poucos, conforme a proposta se mostrasse previsível e de baixo risco. Sem estabilidade ao longo do tempo, preferimos manter a marca atual.",
+          "checks": {
+            "word_count": 42,
+            "sentence_count": 3,
+            "intents": [
+              "brand_switching",
+              "frequency"
+            ],
+            "filler_hits": [],
+            "consumer_voice_hits": [],
+            "core_hits": [
+              "previsível",
+              "estável",
+              "estabilidade",
+              "recorrente",
+              "consistência",
+              "hábito"
+            ],
+            "avoid_hits": [],
+            "doc_personas": [
+              "persona_2",
+              "shared"
+            ],
+            "persona_doc_count": 2,
+            "foreign_doc_count": 0,
+            "has_truncation": false,
+            "short_final_fragment": false,
+            "is_empty": false,
+            "scores": {
+              "concision": 5,
+              "naturalness": 5,
+              "cluster_fit": 5,
+              "rag_grounding": 5,
+              "guardrails": 5
+            },
+            "score_avg": 5
+          },
+          "differentiation_score": 5.0,
+          "total_score": 5.0,
+          "retrieved_context": [
+            {
+              "doc_id": "persona2_price_stability",
+              "persona_id": "persona_2",
+              "doc_type": "price_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/price_stability.md",
+              "score": 0.5573880076408386
+            },
+            {
+              "doc_id": "persona2_habit_switching_costs",
+              "persona_id": "persona_2",
+              "doc_type": "mainstream_behavior",
+              "confidence": "medium",
+              "source_file": "persona_2/habit_and_switching_costs.md",
+              "score": 0.5932875220008174
+            },
+            {
+              "doc_id": "shared_behavioral_science",
+              "persona_id": "shared",
+              "doc_type": "behavioral_science",
+              "confidence": "medium",
+              "source_file": "shared/behavioral_science.md",
+              "score": 0.5562651621182308
+            },
+            {
+              "doc_id": "shared_guardrails",
+              "persona_id": "shared",
+              "doc_type": "guardrails",
+              "confidence": "high",
+              "source_file": "shared/guardrails.md",
+              "score": 0.570276762826635
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
