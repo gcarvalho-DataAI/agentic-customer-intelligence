@@ -283,6 +283,99 @@ def _is_digital_channel_question(question: str) -> bool:
     return any(term in text for term in ("canal digital", "loja física para um canal digital", "online", "app", "site"))
 
 
+def _clean_profile_value(value: object) -> str:
+    return str(value).replace("_", " ").strip()
+
+
+def _format_profile_number(value: object) -> str:
+    try:
+        return f"{float(value):.1f}".replace(".", ",")
+    except (TypeError, ValueError):
+        return _clean_profile_value(value)
+
+
+def _profile_answer(question: str, persona) -> str | None:
+    """Answer factual persona/profile questions without marketing fallback."""
+    q = question.lower()
+    profile = persona.profile
+    age_terms = ("quantos anos", "quanto anos", "idade", "faixa etária", "faixa etaria")
+    identity_terms = ("quem é você", "quem e voce", "quem são vocês", "quem sao voces", "qual seu perfil", "qual é o perfil")
+    region_terms = ("de onde", "região", "regiao", "norte", "sudeste")
+    channel_terms = ("canal preferido", "loja física", "loja fisica")
+    payment_terms = ("pagamento", "meio de pagamento", "carteira", "cartão", "cartao", "crédito", "credito")
+    frequency_terms = ("frequência", "frequencia", "compram com que frequência", "compram com que frequencia")
+
+    age = _format_profile_number(profile.get("idade_media", "não informada"))
+    age_band = _clean_profile_value(profile.get("faixa_etaria_modal", "não informada"))
+    region = _clean_profile_value(profile.get("regiao_modal", "não informada"))
+    channel = _clean_profile_value(profile.get("canal_preferido_modal", "não informado"))
+    payment = _clean_profile_value(profile.get("pagamento_modal", "não informado"))
+    frequency = _clean_profile_value(profile.get("frequencia_compra_modal", "não informada"))
+
+    if any(term in q for term in age_terms):
+        if persona.cluster_id == 2:
+            return (
+                f"Nós não somos uma pessoa individual; representamos um segmento com idade média de {age} anos "
+                f"e faixa etária modal {age_band}. Como esse perfil é mainstream, a leitura principal vem do comportamento "
+                "recorrente e da cautela na mudança, não de uma idade única."
+            )
+        return (
+            f"Nós não somos uma pessoa individual; representamos um segmento com idade média de {age} anos "
+            f"e faixa etária modal {age_band}. Essa é a referência de idade do nosso cluster."
+        )
+
+    if any(term in q for term in identity_terms):
+        return (
+            f"Nós somos a persona {persona.segment_name}. Representamos um cluster de consumidores com região modal {region}, "
+            f"canal preferido {channel}, pagamento modal {payment} e frequência de compra {frequency}."
+        )
+
+    if any(term in q for term in region_terms):
+        return (
+            f"Nossa região modal é {region}. Esse dado descreve a concentração principal do cluster, "
+            "não a localização de uma pessoa individual."
+        )
+
+    if any(term in q for term in channel_terms):
+        return (
+            f"Nosso canal preferido no perfil do cluster é {channel}. Esse comportamento ajuda a orientar como a persona "
+            "responde sobre compra e relacionamento com a marca."
+        )
+
+    if any(term in q for term in payment_terms):
+        return (
+            f"Nosso meio de pagamento modal é {payment}. Esse sinal é usado para manter a resposta alinhada ao perfil "
+            "da persona nas perguntas de compra."
+        )
+
+    if any(term in q for term in frequency_terms):
+        return (
+            f"Nossa frequência de compra modal é {frequency}. Esse dado representa o padrão dominante do segmento, "
+            "não uma rotina individual fixa."
+        )
+
+    return None
+
+
+def _smalltalk_answer(question: str, persona) -> str | None:
+    q = re.sub(r"\s+", " ", question.lower()).strip()
+    has_greeting = any(term in q for term in ("olá", "ola", "oi", "bom dia", "boa tarde", "boa noite", "e aí", "e ai"))
+    asks_wellbeing = any(term in q for term in ("tudo bem", "como vai", "como vocês estão", "como voces estao", "como você está", "como voce esta"))
+    says_thanks = any(term in q for term in ("obrigado", "obrigada", "valeu", "agradeço", "agradeco"))
+
+    if not (has_greeting or asks_wellbeing or says_thanks):
+        return None
+
+    if says_thanks and not has_greeting and not asks_wellbeing:
+        return "Por nada. Podemos continuar a conversa quando quiser."
+
+    if persona.cluster_id == 0:
+        return "Olá, tudo bem por aqui. Pode perguntar sobre como compramos e o que nos passa confiança."
+    if persona.cluster_id == 1:
+        return "Olá, tudo bem por aqui. Pode perguntar sobre ofertas, conveniência ou decisão de compra."
+    return "Olá, tudo bem por aqui. Pode perguntar sobre preço, rotina de compra ou mudança de marca."
+
+
 def _has_final_quality_issue(answer: str, persona_id: int, question: str) -> bool:
     text = re.sub(r"\s+", " ", answer.strip())
     lowered = text.lower()
@@ -467,6 +560,24 @@ def answer_as_persona(
             for doc in retrieved_context
         ],
     )
+    profile_answer = _profile_answer(question, persona)
+    if profile_answer:
+        return PersonaAnswer(
+            cluster_id=persona.cluster_id,
+            segment_name=persona.segment_name,
+            answer=profile_answer,
+            retrieved_context=retrieved_context if include_context else [],
+        )
+
+    smalltalk_answer = _smalltalk_answer(question, persona)
+    if smalltalk_answer:
+        return PersonaAnswer(
+            cluster_id=persona.cluster_id,
+            segment_name=persona.segment_name,
+            answer=smalltalk_answer,
+            retrieved_context=[],
+        )
+
     prompt = build_persona_rag_prompt(
         question,
         persona,
